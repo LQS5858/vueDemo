@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>caretdown</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="caretdown" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M3.06968305,3 L8.9303245,3 C9.52108997,3 10,3.53582228 10,4.19679255 C10,4.49451442 9.90081745,4.78154736 9.72181937,5.00184345 L6.7914913,8.6082499 C6.39409889,9.09732774 5.71758438,9.1333701 5.28045383,8.68875277 C5.25534124,8.66321007 5.23132938,8.63634465 5.20849976,8.60824769 L2.27818638,5.00184124 C1.88079507,4.51276229 1.91301089,3.75585289 2.35014243,3.31123678 C2.54703958,3.11096835 2.80358456,3 3.06968305,3 Z" id="Rectangle-2" fill="#9595CA"></path>
+    </g>
+</svg>

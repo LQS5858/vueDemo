@@ -1,0 +1,670 @@
+
+.jx {
+  /*
+重置element-ui的样式
+*/
+
+  /*重置表格内容居中样式*/
+
+  .el-table {
+    th,
+    td {
+      text-align: center;
+    }
+  }
+
+  /*面包屑组件input下拉框重置*/
+
+  /*标签栏添加左侧边距*/
+
+  .el-tabs__nav-wrap {
+    padding-left: 10px;
+  }
+
+  /*input下拉框重置*/
+
+  @mainColor: #9571e9;
+  .wrap {
+    .el-table th {
+      padding: 9.5px 0;
+    }
+    .el-table td {
+      padding: 1px;
+    }
+  }
+
+  // 左侧sidebar样式重置
+  .side-wrap {
+    .el-submenu__title,
+    .el-menu-item {
+      font-size: 12px;
+    }
+  }
+
+  // 面包屑下拉季度选择select
+  .title-select {
+    .el-input__inner {
+      color: @mainColor;
+      width: 150px;
+      padding: 0;
+      border: 0;
+      font-size: @fontSize+2;
+    }
+    .el-select .el-input .el-select__caret {
+      font-weight: 700;
+      color: @mainColor;
+    }
+  }
+
+  .wrap {
+    .element-class {
+      .el-table__row {
+        height: 44px;
+      }
+      .el-table__empty-block {
+        min-height: 44px;
+      }
+      .el-table th,
+      .el-table td {
+        text-align: center;
+      }
+      .el-table--fit {
+        padding: 0 10px;
+      }
+      .second-select {
+        .el-select {
+          width: 81px;
+          margin-left: 40px;
+        }
+        .el-input__inner {
+          height: 32px;
+        }
+      }
+      .first-select {
+        .el-select {
+          width: 489px;
+          margin-left: 0;
+        }
+        .el-input__inner {
+          height: 32px;
+        }
+      }
+      .cell {
+        text-align: center;
+        color: #9a9aa6;
+        font-size: @fontSize;
+      }
+      .is-leaf {
+        /*
+        background-color: #f5f6f8;
+        border-left: 0.5px solid #d4d7de;
+         */
+        border-bottom: 0.5px solid #d4d7de;
+      }
+      .el-table_1_column_1,
+      .el-table_1_column_2,
+      .el-table_1_column_3 {
+        border-left: 0.5px solid #d4d7de;
+      }
+    }
+  }
+
+  // 组织架构中搜索框重置emelentUI样式
+  .organizationa-content {
+    .left-nav {
+      .nav-search {
+        .el-input {
+          float: left;
+          &__inner {
+            height: 33px;
+            border-radius: 5px;
+            border: 2px solid @borderColor;
+            background: transparent;
+            color: #f1f1f1;
+          }
+        }
+      }
+    }
+  }
+
+  // 组织架构左侧菜单重置样式
+  .organizationa-content {
+    .left-nav {
+      .nav-menu {
+        .el-col-12 {
+          width: 100%;
+        }
+      }
+      .el-col-12 {
+        margin-top: 12px;
+      }
+    }
+  }
+
+  // 组织架构右边导航重置样式
+  .organizationa-content {
+    .right-table {
+      .el-table th {
+        background-color: @bgColor;
+      }
+    }
+  }
+
+  // 考勤管理搜索组件样式重置
+  .attendance-tab-title-wrap {
+    .left-input {
+      .el-input__inner {
+        width: 200px;
+        height: 32px;
+      }
+    }
+    .middle-select {
+      .el-input__inner {
+        width: 200px;
+        height: 32px;
+      }
+    }
+    .attendance-btn {
+      .el-button--primary {
+        font-family: PingFangSC-Semibold;
+        font-size: 12px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 14px;
+        padding: 10px 9px;
+      }
+    }
+  }
+
+  // 考勤管理表格的分页样式重置
+  .attendance-table-wrap {
+    .el-table--enable-row-transition .el-table__body td {
+      padding: 6px 0;
+    }
+    .table-title {
+      .el-button--primary {
+        font-family: PingFangSC-Semibold;
+        font-size: 12px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 14px;
+        padding: 8px 11px;
+        background: #7352bf;
+        border-radius: 4px;
+      }
+    }
+    .table-data {
+      .is-leaf {
+        background: #f1f1f5;
+        box-shadow: inset 0 -1px 0 0 #dcdae2;
+        padding: 9px 0;
+      }
+      .el-table th,
+      .el-table tr {
+        // background: #F1F1F5;
+        box-shadow: inset 0 -1px 0 0 #dcdae2;
+      }
+    }
+    .pagination-wrap {
+      .el-pagination.is-background .btn-next,
+      .el-pagination.is-background .btn-prev,
+      .el-pagination.is-background .el-pager li {
+        background: rgba(235, 233, 240, 0);
+        border-radius: 4px;
+      }
+      .el-pagination.is-background .el-pager li:not(.disabled).active {
+        background: #dedce3;
+        border-radius: 4px;
+      }
+      .el-pagination__sizes {
+        position: absolute;
+        left: 0; // top: 562px
+        .el-input__inner {
+          font-size: 12px;
+          color: #333333;
+        }
+      }
+      .el-pagination .el-select .el-input .el-input__inner {
+        height: 32px;
+      }
+      .el-input {
+        margin: 0;
+      }
+    }
+  }
+
+  // 考核管理elem样式重置
+  .attendance-tab-title-wrap {
+    .attendance-btn {
+      .el-button {
+        line-height: 0;
+      }
+      .el-button--primary {
+        height: 32px;
+        background: #7352bf;
+        border-radius: 4px;
+        font-family: Arial-BoldMT;
+        font-size: 12px;
+        color: #ffffff;
+        padding-left: 12px;
+      }
+      .icon-sousuo:before {
+        padding-right: 8px;
+      }
+    }
+  }
+
+  // 登录页面样式重置
+  .input-login {
+    .icon-login-user:before {
+      color: #7352bf;
+      padding-left: 20px;
+    }
+    .el-input__inner {
+      padding-left: 57px !important;
+    }
+    .icon-mima1:before {
+      color: #7352bf;
+      padding-left: 20px;
+    }
+    .el-input__prefix {
+      line-height: 40px;
+    }
+    .auto-login {
+      color: #666666;
+    }
+    .el-input {
+      margin-bottom: 20px;
+    }
+    .btn-login {
+      .el-button--primary {
+        width: 350px;
+        height: 36px;
+        font-family: PingFangSC-Regular;
+        font-size: @fontSize;
+        color: @backGroundColor;
+        letter-spacing: 15px;
+      }
+    }
+  }
+
+  // 季度奖金设置重置
+  .wrap-quarter {
+    .select,
+    .quarter-input {
+      .el-input--suffix .el-input__inner {
+        width: 200px;
+        height: 32px;
+      }
+    }
+    .quarter-btn {
+      .el-button {
+        line-height: 0;
+      }
+      .el-button--primary {
+        width: 68px;
+        height: 32px;
+        background: #7352bf;
+        border-radius: 4px;
+        font-family: Arial-BoldMT;
+        font-size: 12px;
+        color: #ffffff;
+        padding-left: 12px;
+      }
+      .icon-sousuo:before {
+        padding-right: 8px;
+      }
+    }
+  }
+
+  // 中心总监评分页面ele样式重置
+  .edit-table-wrap {
+
+    .el-input-number {
+      width: 100px !important;
+    }
+    .el-input__inner {
+      height: 32px;
+    }
+    .el-input--suffix {
+      width: 720px;
+    }
+    .el-table td {
+      padding: 8px 0 7px 0;
+    }
+    .el-table th {
+      padding: 13px;
+    }
+    .el-table th > .cell {
+      font-family: PingFangSC-Regular;
+      font-size: 12px;
+      color: #999999;
+      line-height: 14px;
+    }
+  }
+
+  //季度奖金按钮样式
+  .btn-wrap {
+    .el-button--default {
+      margin-left: 16px;
+    }
+    .el-button {
+      line-height: 0;
+      width: @btnWidthSize;
+      height: @btnHeightSize;
+    }
+  }
+
+  // 项目评分页面确定按钮样式重置
+  .btn {
+    .el-button--primary {
+      background: #7352bf;
+      border-radius: 4px;
+    }
+    .el-button {
+      font-family: PingFangSC-Semibold;
+      padding: 8px 21px;
+      font-size: 14px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 14px;
+    }
+  }
+
+  .cancel {
+    .el-button {
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #333333;
+      text-align: center;
+      line-height: 14px;
+    }
+  }
+
+  // 员工首页简报规则图标样式重置
+  .briefing {
+    .el-icon-warning:before {
+      margin: 0 8px 0 12px;
+      color: #faad14;
+    }
+  }
+
+  // 项目管理文字按钮样式重置
+  .search-btn {
+    .icon-reset:before {
+      margin-right: 4px;
+    }
+  }
+
+  .table-part-container {
+    .el-table th {
+      padding: 4px 0 3px 0;
+    }
+    .el-table td {
+      padding: 6px 0 5px 0;
+    }
+  }
+
+  // 项目详情分页样式重置
+  .pagination-container {
+    .btn-prev,
+    .btn-next,
+    .el-pager li {
+      height: 32px;
+      line-height: 32px;
+    }
+    .btn-prev,
+    .btn-next {
+      background-color: white !important;
+    }
+    .active {
+      background-color: #dedce3 !important;
+      border-radius: 4px !important;
+    }
+    .el-input__suffix {
+      left: 125px;
+    }
+    .el-pagination__sizes .el-input .el-input__inner {
+      font-size: @fontSize - 2;
+    }
+    .el-icon-arrow-up:before {
+      margin-left: 35px;
+    }
+  }
+
+  // 添加考勤弹出窗口ele样式重置
+  .dialog-footer {
+    .el-button--default {
+      padding: 0;
+      span {
+        padding: 0 20px;
+      }
+    }
+    .el-button--primary {
+      font-size: 14px !important;
+      span {
+        padding: 0 10px;
+      }
+    }
+  }
+
+  .attendance-add-dialog,
+  .attendance-wrap {
+    .el-dialog__header {
+      height: 52px;
+      display: flex;
+      align-items: center;
+      box-shadow: inset 0 -1px 0 0 #dcdae2;
+      padding: 0 16px;
+    }
+    .el-dialog__body {
+      padding: 16px;
+    }
+    .el-table th {
+      padding: 9px 0;
+    }
+    .el-table__body td {
+      padding: 7.5px 0;
+    }
+    .el-button--default {
+      margin-left: 16px;
+      //height: 32px;
+    }
+    .el-button--primary {
+      background: #7352BF;
+      border-radius: 4px;
+    }
+  }
+
+  // 中层管理者step条样式重置
+  .attendance-search-table {
+    .el-step__title {
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #333333;
+      letter-spacing: 0;
+    }
+    .el-step__icon {
+      width: 16px;
+    }
+    .el-steps {
+      display: flex;
+      align-items: center;
+      height: 100px;
+    }
+  }
+
+  // 项目详情评分弹出框样式重置
+  .container {
+    // 项目详情表格高度样式重置
+    .rating-wrap {
+      .el-table th {
+        padding: 4px 0 3px 0;
+      }
+      .el-table td {
+        padding: 9px 0 9px 0;
+      }
+    }
+    .pro-dialog {
+      .el-dialog__body {
+        padding: 0 20px;
+        font-size: 12px;
+      }
+      .el-table th.is-leaf {
+        background-color: @backGroundColor;
+      }
+      .el-dialog__title {
+        line-height: 52px;
+        padding-left: 20px;
+      }
+      .el-dialog__header {
+        font-family: PingFangSC-Semibold;
+        font-size: 18px;
+        color: #333333;
+        letter-spacing: 0;
+        padding: 0;
+        line-height: 18px;
+        height: 52px;
+        box-shadow: inset 0 -1px 0 0 #dcdae2;
+      }
+      .el-dialog__footer {
+        padding: 20px;
+        box-shadow: 0 -1px 0 0 #dcdae2;
+        border-radius: 0 0 4px 4px;
+        height: 64px;
+        .el-button {
+          line-height: 0;
+          height: 32px;
+        }
+      }
+      .el-button--primary {
+        background: #7352bf;
+        border-radius: 4px;
+      }
+      .el-table th {
+        padding: 9px 0;
+      }
+      .el-input__inner {
+        height: 32px;
+      }
+      .el-input--suffix {
+        width: 414px;
+      }
+      .el-table td {
+        padding: 8px 0 7px 0;
+      }
+    }
+  }
+
+  // 审批管理样式重置
+  .filter-items {
+    .el-input__inner {
+      height: 32px;
+      width: 200px;
+    }
+  }
+
+  .department-member {
+    .el-table th {
+      padding: 9px 0;
+    }
+    .el-table td {
+      padding: 12px 0;
+    }
+  }
+
+  .el-input-number {
+    width: 100%;
+    &__decrease,
+    &__increase {
+      display: none;
+    }
+    .el-input__inner {
+      padding: 0 !important;
+    }
+  }
+
+  // 中心管理者待考核底部按钮样式重置
+  .quarter-btn {
+    .el-button {
+      height: 32px;
+      background: #7352bf;
+      border-radius: 4px;
+      line-height: 0;
+      width: 72px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .el-table th {
+      padding: 9px 0;
+    }
+    .el-table td {
+      padding: 12px 0;
+    }
+  }
+
+  //添加团队贡献
+  .add-team-contribution {
+    .el-dialog__body {
+      padding: 16px 16px 0 16px;
+    }
+  }
+
+  //员工首页评分更多
+  .more {
+    .el-icon-arrow-right:before {
+      margin-left: 8px;
+    }
+  }
+  //所有按钮去除紫色边框颜色
+  .el-button--text {
+    color: #9571E9
+  }
+  .el-button--primary {
+    background: #7352BF;
+    border-radius: 4px;
+    border-color: transparent;
+  }
+  .el-date-editor {
+    &.el-input {
+      width: auto;
+    }
+  }
+  .icon-back:before {
+    margin-right: 8px;
+    color: #7352bf;
+  }
+  //重置密码样式
+  .password {
+    .el-dialog__body {
+      padding: 16px 16px 0px !important
+    }
+    .el-button {
+      margin: 4px 0 16px;
+    }
+    .el-button--small {
+      margin-left: 16px;
+    }
+  }
+  .password-input {
+    /*display:flex;*/
+    /*flex-direction: column;*/
+    .el-form-item__label {
+      padding: 0;
+      font-size: 12px;
+    }
+    .el-form-item--mini.el-form-item {
+      margin-bottom: 12px;
+    }
+    .el-input {
+      width: 100% !important;
+      line-height: 0 !important;
+    }
+    .el-input__inner {
+      color: #333333 !important;
+      width: 100% !important;
+      border-radius: 4px !important;
+      border: 1px solid #DCDAE2 !important;
+    }
+  }
+}

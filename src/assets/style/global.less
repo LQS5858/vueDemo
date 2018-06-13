@@ -1,0 +1,69 @@
+//global css
+@import 'variable';
+@import 'reset';
+@import 'element-ui';
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+/*组件容器以及内容容器样式*/
+
+.container {
+  position: relative;
+  box-sizing: border-box;
+  background: #f2f2f2;
+  .top-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .sub-container {
+    min-height: 100%;
+    margin: 0 20px;
+    background: #fff;
+    border-top: 80px solid #f2f2f2;
+    // border-bottom: 20px solid #f2f2f2;
+    .table-part-container {
+      background: #fff;
+      &:before,
+      &:after {
+        content: '';
+        display: table;
+      }
+    }
+  }
+}
+
+/*分页组件样式*/
+
+.pagination-container {
+  display: flex;
+  margin-top: 15px;
+  justify-content: flex-end;
+}
+
+// 容器相同的margin-top
+.mt {
+  margin-top: 20px;
+}
+
+// 容器相同的上左右maring
+.mtlf {
+  margin: 20px 20px 0
+}
+
+// 容器相同的左右paddin
+.prl {
+  padding: 0 20px;
+}
+
+.main-color {
+    color: @mainColor;
+}
+

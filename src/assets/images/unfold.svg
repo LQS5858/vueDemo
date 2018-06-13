@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>unfold</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="unfold" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-21" fill="#9595CA" x="1" y="1" width="14" height="2" rx="1"></rect>
+        <rect id="Rectangle-21-Copy" fill="#9595CA" x="1" y="13" width="14" height="2" rx="1"></rect>
+        <rect id="Rectangle-21-Copy-2" fill="#9595CA" x="1" y="9" width="8" height="2" rx="1"></rect>
+        <rect id="Rectangle-21-Copy-3" fill="#9595CA" x="1" y="5" width="8" height="2" rx="1"></rect>
+        <path d="M10.3022623,5.5 L14.6977434,5.5 C15.1408175,5.5 15.5,5.94651856 15.5,6.49732713 C15.5,6.74542868 15.4256131,6.9846228 15.2913645,7.16820287 L13.0936185,10.1735416 C12.7955742,10.5811064 12.2881883,10.6111418 11.9603404,10.2406273 C11.9415059,10.2193417 11.923497,10.1969539 11.9063748,10.1735397 L9.70863979,7.16820103 C9.4105963,6.76063524 9.43475817,6.12987741 9.76260682,5.75936398 C9.91027969,5.59247362 10.1026884,5.5 10.3022623,5.5 Z" id="Rectangle-2" fill="#9595CA" transform="translate(12.500000, 8.000000) rotate(-90.000000) translate(-12.500000, -8.000000) "></path>
+    </g>
+</svg>
